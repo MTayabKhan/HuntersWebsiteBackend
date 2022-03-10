@@ -31,7 +31,7 @@ I set up 2 Git repositories and attempted feature branch modelling but failed ho
 
 ![gitHubNetWorkGraph](https://i.imgur.com/PjjlVZX.png)
 
-#Database
+# Database
 
 I created one Database with one table to track all my Hunters in one place and for it to be referred to easily by my code.
 
@@ -53,7 +53,7 @@ The back end was created using Java in Spring Boot Framework, and I had to map m
 
 ![screenshotOfBackEndCode](https://i.imgur.com/TIeHV2m.png)
 
-###Testing:
+### Testing:
 
 I used JUnit to test on this project.
 
@@ -69,7 +69,7 @@ My tests consisted of using MockMVC to imitate the controller class and to imita
 ![testexample](https://i.imgur.com/A4bS76W.png)
 
 
-##FRONT END:
+## FRONT END:
 
 My frontend was created in HTML, I imported a javascript document for the methods I use and a CSS file to style it. 
 
