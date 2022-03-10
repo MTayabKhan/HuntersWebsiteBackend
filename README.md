@@ -14,9 +14,11 @@
 
 * **Front-end development:** Visual Studio Code, with a javascript that worked as an API and a CSS to make it look nice.
 
-##Planning
+## Planning
 
 I made a scrum board in Jira and created User Stories and Epics, from there I made multiple tasks related to the user stories and assigned them to 2 different sprints depending on what I wanted to work on first. 
+
+https://evilvillainy.atlassian.net/jira/software/projects/QP2/boards/10/roadmap
 
 ![Jira1](https://i.imgur.com/iQM1v1a.png)
 
