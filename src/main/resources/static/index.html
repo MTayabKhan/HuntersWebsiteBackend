@@ -1,0 +1,88 @@
+<html>
+
+
+<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+                crossorigin="anonymous">
+
+        <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1><span>Fear the old blood, and keep a record of those who do!</span></h1>
+        <form id="superform">
+                <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="hunterName" placeholder="Name" autocomplete="off"
+                                name="hunterName">
+                        <label for="hunterName" class="form-label">Name</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="" placeholder="#insert_echoes" autocomplete="off"
+                                name="hunterEchoes">
+                        <label for="floatingInput">Echoes</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="" placeholder="OldBloodFeared" autocomplete="off"
+                                name="hunterOBF">
+                        <label for="floatingInput">Old Blood Feared?</label>
+                </div>
+                <br>
+
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="hunterID" placeholder="HunterID" autocomplete="off"
+                                name="hunterID">
+                        <label for="floatingInput">Insert ID to search</label>
+                </div>
+                <br>
+                <input type="button" value="Get All Records" onclick="getAll()">
+                <button type="button" name="Read by ID" onclick="get()">Read 1</button>
+                <button type="submit" name="Create">Create</button>
+                <button type="button" name="Delete" onclick="deleteRecord()">Delete</button>
+
+        </form>
+        <br>
+        <h1><span>Use this form for updating</span></h1>
+        <br>
+        <form id="superform1">
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="hunterName" placeholder="Name" autocomplete="off"
+                                name="hunterName1">
+                        <label for="hunterName" class="form-label">Name</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="" placeholder="#insert_echoes" autocomplete="off"
+                                name="hunterEchoes1">
+                        <label for="floatingInput">Echoes</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="" placeholder="OldBloodFeared" autocomplete="off"
+                                name="hunterOBF1">
+                        <label for="floatingInput">Old Blood Feared?</label>
+                </div>
+                <br>
+
+                <div class="form-floating">
+                        <input type="text" class="form-control" id="hunterID1" placeholder="HunterID" autocomplete="off"
+                                name="hunterID1">
+                        <label for="floatingInput">Insert ID to search</label>
+                </div>
+                <br>
+                <button type="submit" name="Update">Update</button> <br>
+        </form>
+
+        <script src="./methods.js"> </script>
+
+        <audio controls>
+                        <source src="NeverGonnaGiveYouUp.mp3" type="audio/mpeg">
+        </audio>
+</body>
+
+
+
+</html>
