@@ -47,7 +47,7 @@ Here it is in Eclipse:
 
 ![TestingDatabase](https://i.imgur.com/hVInhA7.png)
 
-##Back-end and Testing
+## Back-end and Testing
 
 The back end was created using Java in Spring Boot Framework, and I had to map my code correctly to make sure it worked:
 
